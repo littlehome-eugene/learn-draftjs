@@ -57,6 +57,12 @@ export default class DraftTutsEditor extends Component {
 				<ConsoleButtons
 					buttons={[
 						{
+							onClick: () => this.props.consoleLog(
+								JSON.stringify(this.state.editorState.toJS(), null, 4)
+							),
+							text: "Log EditorState",
+						},
+						{
 							onClick: this.logSelectionState,
 							text: "Log SelectionState",
 						},

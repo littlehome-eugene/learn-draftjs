@@ -1,0 +1,10 @@
+used https://github.com/fatman-/learn-draftjs as base project (just for project setup)
+
+we can use content block to render what we want
+
+* https://lakesare.github.io/draft-rendering-methods/
+* https://medium.com/@siobhanpmahoney/building-a-rich-text-editor-with-react-and-draft-js-part-2-3-embedding-images-11cfc831579e
+
+
+for mention and emoji
+* https://www.draft-js-plugins.com/plugin/mention
